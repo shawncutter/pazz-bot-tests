@@ -1,0 +1,38 @@
+04_Patient_Has_Pain
+Bill Hicks has pain
+
+#me
+Hi
+
+#bot default
+Hi! Can you give me your first and last name?
+
+#me
+My name is Bill Hicks
+
+#bot default
+Hi Bill Hicks, can you tell me your birthday?
+
+#me
+I was born on March 1 1989
+
+#bot default
+Ok great! Now that we’ve identified you I’m going to ask you a few questions, is that OK?
+
+#me
+Yes
+
+#bot default
+Great. I am going to ask you a few questions about your medications and overall wellbeing. OK?
+
+#me
+Yes
+
+#bot default
+Are you experiencing any pain or discomfort today?
+
+#me
+Yes
+
+#bot default
+I will let a nurse or doctor know right now.

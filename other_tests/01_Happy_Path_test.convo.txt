@@ -1,0 +1,68 @@
+01_HAPPY_PATH_TEST
+
+#me
+Hello
+
+#bot default
+Hi! Can you give me your first and last name?
+
+#me
+My name is Shawn Cutter
+
+#bot default
+Hi Shawn Cutter, can you tell me your birthday?
+
+#me
+I was born on December 3rd, 1979
+
+#bot default
+Ok great! Now that we’ve identified you I’m going to ask you a few questions, is that OK?
+
+#me
+Yes
+
+#bot default
+intent-m01-have-birthday-ask-ready-to-start - yes
+
+#me
+Yes
+
+#bot default
+intent-m02-ask-for-pain
+
+#me
+No
+
+#bot default
+intent-m02-ask-for-pain - no
+
+#me
+Yes
+
+#bot default
+intent-m02-ask-for-medications
+
+#me
+Yes
+
+
+#bot default
+intent-m02-ask-for-medications - yes
+
+#me
+OK
+
+#bot default
+intent-m03-ask-for-other-issues
+
+#me
+No
+
+#bot default
+intent-m03-ask-for-other-issues - no
+
+#me
+OK
+
+#bot default
+intent-m03-summarize-results

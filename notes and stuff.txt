@@ -1,0 +1,349 @@
+
+
+,
+    "start": "firebase serve --only functions:dialogflowFirebaseFulfillment",
+    "deploy": "firebase deploy --only functions:dialogflowFirebaseFulfillment"
+
+
+
+
+/* {
+    "botium": {
+      "Capabilities": {
+        "PROJECTNAME": "Dialogflow Sample",
+        "CONTAINERMODE": "dialogflow",
+        "DIALOGFLOW_PROJECT_ID": "zrecruiter-49482",
+        "DIALOGFLOW_CLIENT_EMAIL": "dialogflow-fowcyd@zrecruiter-49482.iam.gserviceaccount.com",
+        "DIALOGFLOW_PRIVATE_KEY": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDBHVT12MVMMZSW\njmbK20wOOBLfaNNNKYsLI9zBC5XsKDjBrg0z/VasVVhAIsFjL1TyOn4Op7aLOxNI\nmZbs1TYXnU7+XrSqxyDZQr1JbvKGhNKCAS/zzbKOjP+CQnI7GDDQtXQzk+zd6aUy\ngX46EHNqpkRsMTYmG8nVmAcx04L+REJJfpk8C4i+t112Bme7oGGls41uOzgU4OvP\ny/G//NDOgp8NZnWkI88oUnkURZ4EtAnaWIO5ov/1e1FPmtFyy6qlkxy8AUV95L7y\n9fNomT3xZe5Kt9HU7ZiYEscFMsYM68y3wpe9pS0nptUNymlp2Vrq7hi8zoOTAzyt\njzE0DyrbAgMBAAECggEAMdXQdYtFyxZman4AL+xs0aSN1kKWeOy2GZ9dGiJTw7hT\ngUPZ22dOxTVXC2IMtvxhdws6Oaz1MjQCE3OzW5XgGjL5zjIBfKrbosWS1I8Bnk5L\nhsoopkmYgSoIzAQ6t15URp/1B1RuxYvEmmaJfRF+v3B96s++UhJMwUa04JpdTSE8\nBy+7BlvA38MuBYaiF5w24fZDG7A1gktxpbWbCp/cgIX5PcyvaPZXfkJnnDYty4G2\nUa04dV37ujkY+shBG1tguKUlqfGb87MkFwmGdDO/L2s2Rj2cWs9rKAwv5K/X0Qfo\n++lcsoCiVUUjskunE8avNuXZeK4fw5yOP0wHPYG1dQKBgQD1sZknq/Qmiy90p4W9\nwroSrlyqEm5llU9YZYEwSu4383UNCFwzTMXmTuFfBdibRKLGl58xRY962n092EU9\nk5s+aZYhyz5VUiooLUaM/heh93UpfC1uh/ivlmJaKRs5XJzEK45rO9mQEK3+0Fv8\nWfDNUaoq2fQi3KgOh2CCHW80XQKBgQDJNxuq8eK0SZ1Uxhtf7WA+FgbloT4cMvJ9\nWeFFhZKaRdAQ2pM4gAsBoG5Lv5yvDIPw9sJ2bp7OheX3vMsQJInPw/x1/kByKwA6\nipjgcee1UA4QIL4KYY27LE8awJ9whWpVDxndVC0BgC4oEfQQBnlpa7ALm07NhOg9\n2xHZD9/olwKBgGuG4Gp2XRIJVCmPr36PHHRUjwV3r40RvXoIYnPKN1uRVybvA7sH\n3Iyg9Q1rN5MshLi5XthngxXXTXyljBgY45Z7C1Oa6ZrZrM2MkxXdlmYyMLqJODDp\nnTLrc/vVha6jE5DfJyNTPDJKunuMoNVeX37cQMckQC6Jt5s0ME6Bp0uZAoGAObI7\nlMDXKKsTGgPURaVjO2pFgALENIHHVno3RiAO8X2jM7H5FPJiNY0zEzVWUDteefHH\nwP3nO4DZeDgCYhaYDaM8+Ph2skXyQtcLDxCaSDs0TRuWYpOmeE00QY+KKFGZM9qo\np/ZDEXMXyRWczhuNJNVkHW/jILtDfLkcXQlYQvECgYEAyedK2tkfBPc2PvfCDv+o\nq86dS7zRl6deGHuTFc2iGdjD0aKgIO5qEX6WbM04GXVKBD+VzpHg8cEgxhAKeejI\ny87hxaccN/kLF3v6ap9N2UHJUf9mbl6LgSEJaquiqkDjuYPDsH/ZjTmc1Yaw79uN\nFyA3mH9br0L0/AlXQx/+hTw=\n-----END PRIVATE KEY-----\n",
+        "DIALOGFLOW_USE_INTENT": false
+      }
+    }
+  }
+ */
+
+
+
+
+
+#me
+PAUSE 3000
+I want to apply to a job
+
+#bot
+Understood. What is the title of the job you are applying to?
+
+#me
+Nurse
+
+#bot
+Got it. Can you tell me what the type or category is for the job? Examples are Administrative, Nursing, Staff, Human Resources...
+
+#me
+Staff
+
+#bot
+Got it. Can you tell me the company who has posted the job?
+
+#me
+Tampa General
+
+#bot
+Tampa General is a great company to work for. Can you provide me with the role of the recruiter from Tampa General?
+
+
+don't
+nope not really
+no that's be all
+not right now
+thanks but no
+not
+nothing else
+no we are good
+not interested
+nah I'm good
+definitely not
+no never
+I don't want to
+no not really
+no no don't
+no maybe next time
+nothing
+nah
+na
+I can't
+no thanks
+no i cannot
+no that's okay
+nope
+I don't
+no at all
+no don't
+no way
+thanks but not at this time
+don't do it
+i disagree
+
+
+
+
+Wayne Medical Center
+The USF Medical Center
+I work at Tampa General
+USF Medical Center
+Hospice Care Inc
+St Joseph's Hospital
+Tampa General
+I worked at Xerox
+Harvard Manor Retirement Community
+
+
+
+
+interested in a position with your company
+I am looking for a job
+I want to apply to a job
+put in my application for a job
+apply for a job
+apply for a role
+apply for a position
+
+
+lovely day isn't it
+hello again
+hi
+hello there
+a good day
+just going to say hi
+heya
+hello hi
+howdy
+hi therelong time no see
+hellogreetings
+hey
+
+
+
+
+technician
+nursing technician
+janitor
+registered nurse
+activity coordinator
+Physician assistant
+nurse
+nursing position
+the technician job
+the technician role
+
+
+
+
+
+  // // Uncomment and edit to make your own Google Assistant intent handler
+  // // uncomment `intentMap.set('your intent name here', googleAssistantHandler);`
+  // // below to get this function to be run when a Dialogflow intent is matched
+  // function googleAssistantHandler(agent) {
+  //   let conv = agent.conv(); // Get Actions on Google library conv instance
+  //   conv.ask('Hello from the Actions on Google client library!') // Use Actions on Google library
+  //   agent.add(conv); // Add Actions on Google library responses to your agent's response
+  // }
+  // // See https://github.com/dialogflow/dialogflow-fulfillment-nodejs/tree/master/samples/actions-on-google
+  // // for a complete Dialogflow fulfillment library Actions on Google client library v2 integration sample
+
+
+
+
+  // // Uncomment and edit to make your own intent handler
+  // // uncomment `intentMap.set('your intent name here', yourFunctionHandler);`
+  // // below to get this function to be run when a Dialogflow intent is matched
+  // function yourFunctionHandler(agent) {
+  //   agent.add(`This message is from Dialogflow's Cloud Functions for Firebase editor!`);
+  //   agent.add(new Card({
+  //       title: `Title: this is a card title`,
+  //       imageUrl: 'https://developers.google.com/actions/images/badges/XPM_BADGING_GoogleAssistant_VER.png',
+  //       text: `This is the body text of a card.  You can even use line\n  breaks and emoji! 💁`,
+  //       buttonText: 'This is a button',
+  //       buttonUrl: 'https://assistant.google.com/'
+  //     })
+  //   );
+  //   agent.add(new Suggestion(`Quick Reply`));
+  //   agent.add(new Suggestion(`Suggestion`));
+  //   agent.setContext({ name: 'weather', lifespan: 2, parameters: { city: 'Rome' }});
+  // }
+
+
+
+
+
+
+// Enter your calendar ID and service account JSON below.
+const calendarId = '<INSERT CALENDAR ID HERE>'; // Example: 6ujc6j6rgfk02cp02vg6h38cs0@group.calendar.google.com
+const serviceAccount = {}; // The JSON object looks like: { "type": "service_account", ... }
+
+// Set up Google Calendar service account credentials
+const serviceAccountAuth = new google.auth.JWT({
+  email: serviceAccount.client_email,
+  key: serviceAccount.private_key,
+  scopes: 'https://www.googleapis.com/auth/calendar'
+});
+
+const calendar = google.calendar('v3');
+process.env.DEBUG = 'dialogflow:*'; // It enables lib debugging statements
+
+const timeZone = 'America/New York';  // Change it to your time zone
+const timeZoneOffset = '-05:00';         // Change it to your time zone offset
+
+
+
+
+function createCalendarEvent (dateTimeStart, dateTimeEnd) {
+  return new Promise((resolve, reject) => {
+    calendar.events.list({  // List all events in the specified time period
+      auth: serviceAccountAuth,
+      calendarId: calendarId,
+      timeMin: dateTimeStart.toISOString(),
+      timeMax: dateTimeEnd.toISOString()
+    }, (err, calendarResponse) => {
+      // Check if there exists any event on the calendar given the specified the time period
+      if (err || calendarResponse.data.items.length > 0) {
+        reject(err || new Error('Requested time conflicts with another appointment'));
+      } else {
+        // Create an event for the requested time period
+        calendar.events.insert({ auth: serviceAccountAuth,
+          calendarId: calendarId,
+          resource: {summary: 'Bike Appointment',
+            start: {dateTime: dateTimeStart},
+            end: {dateTime: dateTimeEnd}}
+        }, (err, event) => {
+          err ? reject(err) : resolve(event);
+        }
+        );
+      }
+    });
+  });
+}
+
+// A helper function that receives Dialogflow's 'date' and 'time' parameters and creates a Date instance.
+function convertParametersDate(date, time){
+  return new Date(Date.parse(date.split('T')[0] + 'T' + time.split('T')[1].split('-')[0] + timeZoneOffset));
+}
+
+// A helper function that adds the integer value of 'hoursToAdd' to the Date instance 'dateObj' and returns a new Data instance.
+function addHours(dateObj, hoursToAdd){
+  return new Date(new Date(dateObj).setHours(dateObj.getHours() + hoursToAdd));
+}
+
+// A helper function that converts the Date instance 'dateObj' into a string that represents this time in English.
+function getLocaleTimeString(dateObj){
+  return dateObj.toLocaleTimeString('en-US', { hour: 'numeric', hour12: true, timeZone: timeZone });
+}
+
+// A helper function that converts the Date instance 'dateObj' into a string that represents this date in English. 
+function getLocaleDateString(dateObj){
+  return dateObj.toLocaleDateString('en-US', { weekday: 'long', month: 'long', day: 'numeric', timeZone: timeZone });
+}
+
+
+
+
+
+
+
+
+
+
+Parameters exists within the output contexts in Fulfillment response (V2). You need to specify the parameter you want to add / update in your respective output context while sending response back from your web hook
+
+                response.send(JSON.stringify({
+                "fulfillmentText": "Hello, welcome to bot service. I need you to sign in first, your Userid?",
+                "outputContexts": [
+                    {
+                        "name": request.body.session + "/contexts/usercontext",
+                        "lifespanCount": 5,
+                        "parameters": {
+                            "token": result.access_token
+                        }
+                    }
+                ]
+            }));
+You can then have this parameter value in your subsequent 5 invoked intents.
+
+
+
+
+
+
+
+
+BAYADA Adult Nursing BAYADA Adult NursingAdult Nursing
+Westfield Assisted Living Center Westfield Assisted Living CenterWestfield Assisted Living
+Whispering Oaks Whispering OaksWhispering Oaks CWhispering Oaks Center
+Canterbury Tower Senior Living Canterbury Tower Senior LivingSenior Living Center
+At-home Care Inc At-home Care IncAtHome Care
+Click here to edit entry
+
++ Add a row
+
+
+
+
+
+const fs = require('fs');
+const https = require('https');
+
+const express = require('express');
+const bodyParser = require('body-parser');
+// I'm only using dialogflow right now but these are the other classes you can bring in from actions-on-google
+/** const {
+    dialogflow, BasicCard, BrowseCarousel, BrowseCarouselItem, Button, Carousel, Image,
+    LinkOutSuggestions, List, MediaObject, Suggestions, SimpleResponse, Confirmation
+} = require('actions-on-google'); **/
+const {dialogflow} = require('actions-on-google');
+
+const serverOptions = {
+    key: fs.readFileSync(config.SSLDIR + 'privkey.pem'),
+    cert: fs.readFileSync(config.SSLDIR + 'cert.pem'),
+    ca: fs.readFileSync(config.SSLDIR + 'chain.pem')
+};
+
+const app = dialogflow({debug: false, clientId: config.AUTH_CLIENT_ID})
+    .use(responses);
+const handler = express();
+handler.disable('x-powered-by');
+handler.use(bodyParser.urlencoded({extended: true}));
+handler.use(bodyParser.json(), app);
+
+const server = https.createServer(serverOptions, handler).listen(config.LISTEN_PORT, () => {
+    log.info(`1centcollector actions-on-google api listening on port ${config.LISTEN_PORT}. Press Ctrl+C to Quit`);
+});
+server.on('error', function(e) {
+    log.error(`Can't start WebServer! Error is ${e}`);
+    process.exit();
+});
+
+
+
+/*******************************************************************
+ * I use middleware to do some processing before the intent is processed
+ */
+app.middleware(async (conv) => {
+// ..
+});
+
+
+const {responses} = require('./response');
+/**************************************************************************
+ * My response module starts like this:
+ */
+const responses = app => {
+    app.response = (reason, conv, coin = null) => {
+        // ...
+    };
+};
+
+/**
+Then I have:
+*/
+app.intent('Default Welcome Intent', (conv, params) => {
+// ...
+});

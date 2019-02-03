@@ -1,0 +1,54 @@
+change_meds
+
+#me
+hi
+
+#bot default
+Hi! Can you give me your first and last name?
+
+#me
+my name is Tom Master
+
+#bot default
+I missed that, say that again?
+
+#me
+my name is Tom Johnson
+
+#bot default
+Hi Tom Johnson, can you tell me your birthday?
+
+#me
+I was born on 5/2/1987
+
+#bot default
+Ok great! Now that we’ve identified you I’m going to ask you a few questions about your medications and overall wellbeing. OK?
+
+#me
+OK
+
+#bot default
+I see you are taking Buproprion 400mg 2x daily
+and Prednisone 140mg 1x daily.
+
+Is this correct?
+
+#me
+Yes
+
+#bot default
+Got it $firstName. We are almost finished. 
+
+Are you still doing OK?
+
+#me
+No
+
+#bot default
+Can you let me know what other changes you want to make to your medications?
+
+#me
+I take tylenol once a day
+
+#bot default
+I didn't get that. Can you repeat?

@@ -1,0 +1,116 @@
+The_Last_One
+
+#me
+hello
+
+#bot default
+Hi! Can you give me your first and last name?
+
+#me
+My name is Bill Hicks
+
+#bot default
+Hi Bill Hicks, can you tell me your birthday?
+
+#me
+my birthdate is 12/3/1988
+
+#bot default
+Ok great! Now that we’ve identified you I’m going to ask you a few questions about your medications and overall wellbeing. OK?
+
+#me
+OK
+
+#bot default
+Are you experiencing any pain or discomfort today?
+
+#me
+No
+
+#bot default
+That is good to hear.
+
+Can we go over your medications now?
+
+#me
+Yes
+
+#bot default
+I see you are taking Buproprion 400mg 2x daily
+and Prednisone 140mg 1x daily.
+
+Is this correct?
+
+#me
+No
+
+#bot default
+Can you let me know what other changes you want to make to your medications?
+
+#me
+Yes, I am now taking Tylenol 200mg twice daily
+
+#bot default
+Got it.
+
+Let's keep moving on.  Are you still OK?
+
+#me
+Yes
+
+#bot default
+Do you have any other information you would like the doctor or nurse know?
+
+#me
+Yes
+
+#bot default
+OK. Just list out what is on your mind and I will be sure to let them know.
+
+#me
+I think i tore something pretty bad on my right shoulder.
+
+#bot default
+OK. Just list out what is on your mind and I will be sure to let them know.
+
+#me
+I think i tore something pretty bad on my right shoulder.
+
+#bot default
+Do you have any other information you would like the doctor or nurse know?
+
+#me
+No
+
+#bot default
+We are all done.  Would you like to see a summary of this session?
+
+#me
+Yes
+
+#me
+yes
+
+#bot default
+Here is your summary
+
+#me
+Yes
+
+#bot default
+Here is your summary
+
+#me
+No
+
+#me
+No
+
+#me
+No
+
+#me
+No
+
+#me
+No

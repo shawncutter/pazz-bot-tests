@@ -1,0 +1,62 @@
+Good_Patient_No_Issues
+
+#me
+hi
+
+#bot default
+Hi! Can you give me your first and last name?
+
+#me
+my name is Bill Hicks
+
+#bot default
+Hi Bill Hicks, can you tell me your birthday?
+
+#me
+I was born on 7/2/1988
+
+#bot default
+Ok great! Now that we’ve identified you I’m going to ask you a few questions about your medications and overall wellbeing. OK?
+
+#me
+OK
+
+#bot default
+Are you experiencing any pain or discomfort today?
+
+#me
+No
+
+#bot default
+That is good to hear.
+
+Can we go over your medications now?
+
+#me
+Sure
+
+#bot default
+I see you are taking Buproprion 400mg 2x daily
+and Prednisone 140mg 1x daily.
+
+Is this correct?
+
+#me
+Yes
+
+#bot default
+Got it Bill. We are almost finished. 
+
+Are you still doing OK?
+
+#me
+OK
+
+#bot default
+Do you have any other information you would like the doctor or nurse know?
+
+#me
+No
+
+#me
+No

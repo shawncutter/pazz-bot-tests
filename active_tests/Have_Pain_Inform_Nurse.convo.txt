@@ -1,0 +1,31 @@
+Have_Pain_Inform_Nurse
+
+#me
+hello there
+
+#bot default
+Hi! Can you give me your first and last name?
+
+#me
+my name is Bill Hicks
+
+#bot default
+Hi Bill Hicks, can you tell me your birthday?
+
+#me
+i was born on 12/2/1978
+
+#bot default
+Ok great! Now that we’ve identified you I’m going to ask you a few questions about your medications and overall wellbeing. OK?
+
+#me
+OK
+
+#bot default
+Are you experiencing any pain or discomfort today?
+
+#me
+yes
+
+#bot default
+I will let a nurse or doctor know right now.

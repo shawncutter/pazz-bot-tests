@@ -1,0 +1,50 @@
+Happy_Path
+
+#me
+Hi
+
+#bot default
+Hi! Can you give me your first and last name?
+
+#me
+My name is Bill Hicks
+
+#bot default
+Hi Bill Hicks, can you tell me your birthday?
+
+#me
+my birthdate is 2/3/1978
+
+#bot default
+Ok great! Now that we’ve identified you I’m going to ask you a few questions about your medications and overall wellbeing. OK?
+
+#me
+OK
+
+#bot default
+I see you are taking Buproprion 400mg 2x daily
+and Prednisone 140mg 1x daily.
+
+Is this correct?
+
+#me
+Yes
+
+#bot default
+Got it $firstName. We are almost finished. 
+
+Are you still doing OK?
+
+#me
+Yes
+
+#bot default
+Got it $firstName. We are almost finished. 
+
+Are you still doing OK?
+
+#me
+OK
+
+#me
+OK
